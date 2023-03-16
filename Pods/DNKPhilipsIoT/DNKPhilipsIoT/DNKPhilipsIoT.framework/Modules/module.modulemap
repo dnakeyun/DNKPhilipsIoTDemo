@@ -1,0 +1,6 @@
+framework module DNKPhilipsIoT {
+  umbrella header "DNKPhilipsIoT.h"
+
+  export *
+  module * { export * }
+}

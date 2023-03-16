@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		541C322316A4F05C2EEC214D34B632B4 /* DNKPhilipsIoT */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1F68547E8B43198BF78EF13FDF3BE541 /* Build configuration list for PBXAggregateTarget "DNKPhilipsIoT" */;
+			buildPhases = (
+			);
+			dependencies = (
+				DABEAA58836BFE67D48FAA67B2902D62 /* PBXTargetDependency */,
+			);
+			name = DNKPhilipsIoT;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0FD4A73912E11C8534F36FB84C69F1A6 /* Pods-DNKPhilipsIoT_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6297ECCAE73E33710E01078513E1855D /* Pods-DNKPhilipsIoT_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12F482FE2022286A223FFC9BFA84F83A /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0807BF1F9BBB098A65723FB540474151 /* CocoaAsyncSocket-dummy.m */; };
+		26F87A3DC73299D66231DFE835E9C13D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */; };
+		33A88215D5655DDBF56DEAA41CC8D8DA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BE90665B4A1053C5FF26D5289CBC83 /* CFNetwork.framework */; };
+		37B0BF2484BE142772F5429AEE5CF0B1 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C492BB560726D7E6BEACE4E2FA5EFC82 /* GCDAsyncUdpSocket.m */; };
+		4FC2272F4C11472C903CFCC6A101313E /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E447AE48933A5054E1EC83D916719C90 /* GCDAsyncSocket.m */; };
+		67A4DC4B4DB5321811BC3D3627AE855E /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 85F8DAC80D158602891C252D10EAFEFA /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C1DD31A3A7A0FBBA1A9C88A92CAA28C /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC90AA42BD34B8599E6903D68A2B8982 /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8861DA09219E12C0A1DBA07EB1CEB94A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABAB7562D0623DFC2D01E0A09448472 /* Security.framework */; };
+		B19D3C79B36157522E7662E737D558EF /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = A3469926565D3BD5D918CCC55A188DD0 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2FE62407BE3AEBCA8AC1481AA1FDE6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */; };
+		CA8085EE34C8D4B0A982C3C9087950D8 /* Pods-DNKPhilipsIoT_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FBC6B427EA0AF791E8476745E76432 /* Pods-DNKPhilipsIoT_Example-dummy.m */; };
+		D48A61789B05E049A4496FAE36362D39 /* Pods-DNKPhilipsIoT_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFFCDB6765E9361DEB34DB7A9BEE64F /* Pods-DNKPhilipsIoT_Tests-dummy.m */; };
+		DBC96A6534086CC636537D9A3D91A2B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */; };
+		E4FB9DBC090A4B9597D036AD2615E5D2 /* Pods-DNKPhilipsIoT_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB10908ADF98398C518E7C21B911B1D8 /* Pods-DNKPhilipsIoT_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25548650EEA92992F1BAEB38D46A0FC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		3E728B6776D77C34AA2CC3D00BD6BAE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9C3E756B7D685B50A961BDF14228149;
+			remoteInfo = "Pods-DNKPhilipsIoT_Example";
+		};
+		D11204B1629A7E843F749C67215B49FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		EA974AC474FD6E315CF202551B10805D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 541C322316A4F05C2EEC214D34B632B4;
+			remoteInfo = DNKPhilipsIoT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0807BF1F9BBB098A65723FB540474151 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		09027BC09B94D048FD719B397AD3EB7D /* Pods-DNKPhilipsIoT_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DNKPhilipsIoT_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A9ED56AB65F039F86CFD6CA60290AB6 /* Pods-DNKPhilipsIoT_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DNKPhilipsIoT_Example-Info.plist"; sourceTree = "<group>"; };
+		0B20F3303B57D44862F6DB57CEE37C2D /* Pods-DNKPhilipsIoT_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DNKPhilipsIoT_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		16464778E2E0B188CF3BB154D0FE4352 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		1884FE66583DE5F3E620F1ADC2D71B28 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		1FC082926365411E975C92DA7E3C6DDA /* CocoaAsyncSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.release.xcconfig; sourceTree = "<group>"; };
+		244D567C6D7ED5EF9969DBA9EA703A63 /* Pods-DNKPhilipsIoT_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DNKPhilipsIoT_Tests.modulemap"; sourceTree = "<group>"; };
+		2AC318F2BDD8E37C3F938CB76938B789 /* Pods-DNKPhilipsIoT_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNKPhilipsIoT_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		47C6081E2427D70639B895381B117922 /* Pods-DNKPhilipsIoT_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNKPhilipsIoT_Example.release.xcconfig"; sourceTree = "<group>"; };
+		494D6F4FE31086AABC497568AD3DD0FA /* DNKPhilipsIoT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DNKPhilipsIoT.debug.xcconfig; sourceTree = "<group>"; };
+		592A6E3957F9DEC4A54CD25CC324655D /* CocoaAsyncSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.debug.xcconfig; sourceTree = "<group>"; };
+		6151870860608F808BFE15F74C87F5C7 /* DNKPhilipsIoT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DNKPhilipsIoT.release.xcconfig; sourceTree = "<group>"; };
+		6297ECCAE73E33710E01078513E1855D /* Pods-DNKPhilipsIoT_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DNKPhilipsIoT_Example-umbrella.h"; sourceTree = "<group>"; };
+		67B575475614DB5E8D6E842A93D28342 /* Pods-DNKPhilipsIoT_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNKPhilipsIoT_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E66537C3B1CB1EA112A9E18F3EF2201 /* Pods-DNKPhilipsIoT_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DNKPhilipsIoT_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7ABAB7562D0623DFC2D01E0A09448472 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		84FBC6B427EA0AF791E8476745E76432 /* Pods-DNKPhilipsIoT_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DNKPhilipsIoT_Example-dummy.m"; sourceTree = "<group>"; };
+		85F8DAC80D158602891C252D10EAFEFA /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		8D8AABF7B1B45C4457CB33468B94D45D /* Pods-DNKPhilipsIoT_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DNKPhilipsIoT_Tests"; path = Pods_DNKPhilipsIoT_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A6A7C6DA9C9F56D749EF1A104BF36C /* Pods-DNKPhilipsIoT_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DNKPhilipsIoT_Example"; path = Pods_DNKPhilipsIoT_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FFFCDB6765E9361DEB34DB7A9BEE64F /* Pods-DNKPhilipsIoT_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DNKPhilipsIoT_Tests-dummy.m"; sourceTree = "<group>"; };
+		A3469926565D3BD5D918CCC55A188DD0 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		A6BE90665B4A1053C5FF26D5289CBC83 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		AB0BD9CA8ADBF9AFBAFFC050CEC24352 /* Pods-DNKPhilipsIoT_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DNKPhilipsIoT_Tests-Info.plist"; sourceTree = "<group>"; };
+		BAE433C24C51BB3DEFB6EBB4C747E25F /* Pods-DNKPhilipsIoT_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DNKPhilipsIoT_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BE8CD73F77FDE356316D371A580D2343 /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
+		C492BB560726D7E6BEACE4E2FA5EFC82 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		C5B3299B565FA6BEFC2E8DD48CE6F840 /* Pods-DNKPhilipsIoT_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNKPhilipsIoT_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D2468D3BF8A90A85DE7F8317C41650BB /* DNKPhilipsIoT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DNKPhilipsIoT.framework; path = DNKPhilipsIoT/DNKPhilipsIoT.framework; sourceTree = "<group>"; };
+		DC90AA42BD34B8599E6903D68A2B8982 /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		E447AE48933A5054E1EC83D916719C90 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		E493557EA811E1EC4F035CD2E228A46F /* Pods-DNKPhilipsIoT_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DNKPhilipsIoT_Example.modulemap"; sourceTree = "<group>"; };
+		EB10908ADF98398C518E7C21B911B1D8 /* Pods-DNKPhilipsIoT_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DNKPhilipsIoT_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FA77AE3AD31B602F2AA3A827B9A25D3A /* Pods-DNKPhilipsIoT_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DNKPhilipsIoT_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DD1CF048DD9BE0B50F066A2006693D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FE62407BE3AEBCA8AC1481AA1FDE6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88D7D2478E384A08AE1C134341C4E7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC96A6534086CC636537D9A3D91A2B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37DD023A3721BF2E9A52660FA8A3C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A88215D5655DDBF56DEAA41CC8D8DA /* CFNetwork.framework in Frameworks */,
+				26F87A3DC73299D66231DFE835E9C13D /* Foundation.framework in Frameworks */,
+				8861DA09219E12C0A1DBA07EB1CEB94A /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5B250C191F0E4C7AD947CD0C88A0F4B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84664DEA486F8CFBABEA51A92959F135 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				494D6F4FE31086AABC497568AD3DD0FA /* DNKPhilipsIoT.debug.xcconfig */,
+				6151870860608F808BFE15F74C87F5C7 /* DNKPhilipsIoT.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DNKPhilipsIoT";
+			sourceTree = "<group>";
+		};
+		90FB2C39ED5113156E3098661403C1CF /* Pods-DNKPhilipsIoT_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				244D567C6D7ED5EF9969DBA9EA703A63 /* Pods-DNKPhilipsIoT_Tests.modulemap */,
+				0B20F3303B57D44862F6DB57CEE37C2D /* Pods-DNKPhilipsIoT_Tests-acknowledgements.markdown */,
+				6E66537C3B1CB1EA112A9E18F3EF2201 /* Pods-DNKPhilipsIoT_Tests-acknowledgements.plist */,
+				9FFFCDB6765E9361DEB34DB7A9BEE64F /* Pods-DNKPhilipsIoT_Tests-dummy.m */,
+				AB0BD9CA8ADBF9AFBAFFC050CEC24352 /* Pods-DNKPhilipsIoT_Tests-Info.plist */,
+				EB10908ADF98398C518E7C21B911B1D8 /* Pods-DNKPhilipsIoT_Tests-umbrella.h */,
+				67B575475614DB5E8D6E842A93D28342 /* Pods-DNKPhilipsIoT_Tests.debug.xcconfig */,
+				2AC318F2BDD8E37C3F938CB76938B789 /* Pods-DNKPhilipsIoT_Tests.release.xcconfig */,
+			);
+			name = "Pods-DNKPhilipsIoT_Tests";
+			path = "Target Support Files/Pods-DNKPhilipsIoT_Tests";
+			sourceTree = "<group>";
+		};
+		A1960BF0C75001205F2F497505EDE865 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */,
+				97A6A7C6DA9C9F56D749EF1A104BF36C /* Pods-DNKPhilipsIoT_Example */,
+				8D8AABF7B1B45C4457CB33468B94D45D /* Pods-DNKPhilipsIoT_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABDD1E4567BDE9C6D972CE56E8EC69A6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16464778E2E0B188CF3BB154D0FE4352 /* CocoaAsyncSocket.modulemap */,
+				0807BF1F9BBB098A65723FB540474151 /* CocoaAsyncSocket-dummy.m */,
+				BE8CD73F77FDE356316D371A580D2343 /* CocoaAsyncSocket-Info.plist */,
+				1884FE66583DE5F3E620F1ADC2D71B28 /* CocoaAsyncSocket-prefix.pch */,
+				DC90AA42BD34B8599E6903D68A2B8982 /* CocoaAsyncSocket-umbrella.h */,
+				592A6E3957F9DEC4A54CD25CC324655D /* CocoaAsyncSocket.debug.xcconfig */,
+				1FC082926365411E975C92DA7E3C6DDA /* CocoaAsyncSocket.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		BF22C1C6922477802859B7DB94BA6F06 /* DNKPhilipsIoT */ = {
+			isa = PBXGroup;
+			children = (
+				E5DDDD2D43A5933844A0E5A24905E409 /* Frameworks */,
+				84664DEA486F8CFBABEA51A92959F135 /* Support Files */,
+			);
+			name = DNKPhilipsIoT;
+			path = DNKPhilipsIoT;
+			sourceTree = "<group>";
+		};
+		C786AB4197C5F57DE59FBEF17CADB9C5 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				85F8DAC80D158602891C252D10EAFEFA /* GCDAsyncSocket.h */,
+				E447AE48933A5054E1EC83D916719C90 /* GCDAsyncSocket.m */,
+				A3469926565D3BD5D918CCC55A188DD0 /* GCDAsyncUdpSocket.h */,
+				C492BB560726D7E6BEACE4E2FA5EFC82 /* GCDAsyncUdpSocket.m */,
+				ABDD1E4567BDE9C6D972CE56E8EC69A6 /* Support Files */,
+			);
+			name = CocoaAsyncSocket;
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				EE663157798776A51651844687784F68 /* Pods */,
+				A1960BF0C75001205F2F497505EDE865 /* Products */,
+				F0A93F9B88FBC389791A2D1C3D0D07DC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D5B250C191F0E4C7AD947CD0C88A0F4B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A6BE90665B4A1053C5FF26D5289CBC83 /* CFNetwork.framework */,
+				7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */,
+				7ABAB7562D0623DFC2D01E0A09448472 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E5DDDD2D43A5933844A0E5A24905E409 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2468D3BF8A90A85DE7F8317C41650BB /* DNKPhilipsIoT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE663157798776A51651844687784F68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C786AB4197C5F57DE59FBEF17CADB9C5 /* CocoaAsyncSocket */,
+				BF22C1C6922477802859B7DB94BA6F06 /* DNKPhilipsIoT */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0A93F9B88FBC389791A2D1C3D0D07DC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2436CA533AB548C0E1F6DA8F9679BF8 /* Pods-DNKPhilipsIoT_Example */,
+				90FB2C39ED5113156E3098661403C1CF /* Pods-DNKPhilipsIoT_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F2436CA533AB548C0E1F6DA8F9679BF8 /* Pods-DNKPhilipsIoT_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E493557EA811E1EC4F035CD2E228A46F /* Pods-DNKPhilipsIoT_Example.modulemap */,
+				09027BC09B94D048FD719B397AD3EB7D /* Pods-DNKPhilipsIoT_Example-acknowledgements.markdown */,
+				FA77AE3AD31B602F2AA3A827B9A25D3A /* Pods-DNKPhilipsIoT_Example-acknowledgements.plist */,
+				84FBC6B427EA0AF791E8476745E76432 /* Pods-DNKPhilipsIoT_Example-dummy.m */,
+				BAE433C24C51BB3DEFB6EBB4C747E25F /* Pods-DNKPhilipsIoT_Example-frameworks.sh */,
+				0A9ED56AB65F039F86CFD6CA60290AB6 /* Pods-DNKPhilipsIoT_Example-Info.plist */,
+				6297ECCAE73E33710E01078513E1855D /* Pods-DNKPhilipsIoT_Example-umbrella.h */,
+				C5B3299B565FA6BEFC2E8DD48CE6F840 /* Pods-DNKPhilipsIoT_Example.debug.xcconfig */,
+				47C6081E2427D70639B895381B117922 /* Pods-DNKPhilipsIoT_Example.release.xcconfig */,
+			);
+			name = "Pods-DNKPhilipsIoT_Example";
+			path = "Target Support Files/Pods-DNKPhilipsIoT_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16A98B7A5733DB246B5797B3F3EAEC34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FB9DBC090A4B9597D036AD2615E5D2 /* Pods-DNKPhilipsIoT_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17317FE99BCBCAE1DCC6BF783E1EFAF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C1DD31A3A7A0FBBA1A9C88A92CAA28C /* CocoaAsyncSocket-umbrella.h in Headers */,
+				67A4DC4B4DB5321811BC3D3627AE855E /* GCDAsyncSocket.h in Headers */,
+				B19D3C79B36157522E7662E737D558EF /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF78FDC7A387D9A3AEBA6FCC7D3C873A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FD4A73912E11C8534F36FB84C69F1A6 /* Pods-DNKPhilipsIoT_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0A95C19FCB7B5FAAC46BE001C359756 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildPhases = (
+				17317FE99BCBCAE1DCC6BF783E1EFAF0 /* Headers */,
+				B9BA2F3E20981E6576E8626EADB9300B /* Sources */,
+				D37DD023A3721BF2E9A52660FA8A3C6D /* Frameworks */,
+				3D473FD104BFCD98C99B267430355524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaAsyncSocket;
+			productName = CocoaAsyncSocket;
+			productReference = 6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */;
+			productType = "com.apple.product-type.framework";
+		};
+		E32FB3CFD16DC6569682610B81B45329 /* Pods-DNKPhilipsIoT_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF872B985A633375CF430ABD50AEE589 /* Build configuration list for PBXNativeTarget "Pods-DNKPhilipsIoT_Tests" */;
+			buildPhases = (
+				16A98B7A5733DB246B5797B3F3EAEC34 /* Headers */,
+				5A6D53EC5060384FDA7B0DF93ABF4EC9 /* Sources */,
+				2DD1CF048DD9BE0B50F066A2006693D9 /* Frameworks */,
+				2A9BE04DE61861E90EF06A219165A839 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9700AA7BD30014FFF8DAA63F604E57AE /* PBXTargetDependency */,
+			);
+			name = "Pods-DNKPhilipsIoT_Tests";
+			productName = Pods_DNKPhilipsIoT_Tests;
+			productReference = 8D8AABF7B1B45C4457CB33468B94D45D /* Pods-DNKPhilipsIoT_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9C3E756B7D685B50A961BDF14228149 /* Pods-DNKPhilipsIoT_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BF18FF983E1C411EC848AA176C58BB3 /* Build configuration list for PBXNativeTarget "Pods-DNKPhilipsIoT_Example" */;
+			buildPhases = (
+				DF78FDC7A387D9A3AEBA6FCC7D3C873A /* Headers */,
+				2AA78E6385B7C9512290C8E86FA79C0D /* Sources */,
+				B88D7D2478E384A08AE1C134341C4E7C /* Frameworks */,
+				E0CCB173EE77579D20C98120B61DBE4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B168E9881A7D6F34E30ADA86BA1F69A /* PBXTargetDependency */,
+				98E3C4A5986D6134A8ECE2B55E99E843 /* PBXTargetDependency */,
+			);
+			name = "Pods-DNKPhilipsIoT_Example";
+			productName = Pods_DNKPhilipsIoT_Example;
+			productReference = 97A6A7C6DA9C9F56D749EF1A104BF36C /* Pods-DNKPhilipsIoT_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A1960BF0C75001205F2F497505EDE865 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */,
+				541C322316A4F05C2EEC214D34B632B4 /* DNKPhilipsIoT */,
+				E9C3E756B7D685B50A961BDF14228149 /* Pods-DNKPhilipsIoT_Example */,
+				E32FB3CFD16DC6569682610B81B45329 /* Pods-DNKPhilipsIoT_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A9BE04DE61861E90EF06A219165A839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D473FD104BFCD98C99B267430355524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0CCB173EE77579D20C98120B61DBE4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AA78E6385B7C9512290C8E86FA79C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8085EE34C8D4B0A982C3C9087950D8 /* Pods-DNKPhilipsIoT_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6D53EC5060384FDA7B0DF93ABF4EC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48A61789B05E049A4496FAE36362D39 /* Pods-DNKPhilipsIoT_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BA2F3E20981E6576E8626EADB9300B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F482FE2022286A223FFC9BFA84F83A /* CocoaAsyncSocket-dummy.m in Sources */,
+				4FC2272F4C11472C903CFCC6A101313E /* GCDAsyncSocket.m in Sources */,
+				37B0BF2484BE142772F5429AEE5CF0B1 /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B168E9881A7D6F34E30ADA86BA1F69A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = D11204B1629A7E843F749C67215B49FE /* PBXContainerItemProxy */;
+		};
+		9700AA7BD30014FFF8DAA63F604E57AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DNKPhilipsIoT_Example";
+			target = E9C3E756B7D685B50A961BDF14228149 /* Pods-DNKPhilipsIoT_Example */;
+			targetProxy = 3E728B6776D77C34AA2CC3D00BD6BAE0 /* PBXContainerItemProxy */;
+		};
+		98E3C4A5986D6134A8ECE2B55E99E843 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DNKPhilipsIoT;
+			target = 541C322316A4F05C2EEC214D34B632B4 /* DNKPhilipsIoT */;
+			targetProxy = EA974AC474FD6E315CF202551B10805D /* PBXContainerItemProxy */;
+		};
+		DABEAA58836BFE67D48FAA67B2902D62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = 25548650EEA92992F1BAEB38D46A0FC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		021BA2E585D65B97D7FEFC0D0F4851D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494D6F4FE31086AABC497568AD3DD0FA /* DNKPhilipsIoT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0247D858711773713777F25A7771B350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC082926365411E975C92DA7E3C6DDA /* CocoaAsyncSocket.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		13A309C0477E25A32E93D7B77134FEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AC318F2BDD8E37C3F938CB76938B789 /* Pods-DNKPhilipsIoT_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DNKPhilipsIoT_Tests/Pods-DNKPhilipsIoT_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DNKPhilipsIoT_Tests/Pods-DNKPhilipsIoT_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		205F0194ABD6BA10BAC6BBD6A6535510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6151870860608F808BFE15F74C87F5C7 /* DNKPhilipsIoT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		26CFC5FF695EE22F3CB5512278B28DCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B575475614DB5E8D6E842A93D28342 /* Pods-DNKPhilipsIoT_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DNKPhilipsIoT_Tests/Pods-DNKPhilipsIoT_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DNKPhilipsIoT_Tests/Pods-DNKPhilipsIoT_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D1D36601ED540EF15B7CE473BECA1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5B3299B565FA6BEFC2E8DD48CE6F840 /* Pods-DNKPhilipsIoT_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DNKPhilipsIoT_Example/Pods-DNKPhilipsIoT_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DNKPhilipsIoT_Example/Pods-DNKPhilipsIoT_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EB696D49BFDA62EBF045C0A10971288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 592A6E3957F9DEC4A54CD25CC324655D /* CocoaAsyncSocket.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		88767D586FD8952B066A20F3F105AB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C6081E2427D70639B895381B117922 /* Pods-DNKPhilipsIoT_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DNKPhilipsIoT_Example/Pods-DNKPhilipsIoT_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DNKPhilipsIoT_Example/Pods-DNKPhilipsIoT_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F68547E8B43198BF78EF13FDF3BE541 /* Build configuration list for PBXAggregateTarget "DNKPhilipsIoT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				021BA2E585D65B97D7FEFC0D0F4851D6 /* Debug */,
+				205F0194ABD6BA10BAC6BBD6A6535510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BF18FF983E1C411EC848AA176C58BB3 /* Build configuration list for PBXNativeTarget "Pods-DNKPhilipsIoT_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D1D36601ED540EF15B7CE473BECA1F9 /* Debug */,
+				88767D586FD8952B066A20F3F105AB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0A95C19FCB7B5FAAC46BE001C359756 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EB696D49BFDA62EBF045C0A10971288 /* Debug */,
+				0247D858711773713777F25A7771B350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF872B985A633375CF430ABD50AEE589 /* Build configuration list for PBXNativeTarget "Pods-DNKPhilipsIoT_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26CFC5FF695EE22F3CB5512278B28DCF /* Debug */,
+				13A309C0477E25A32E93D7B77134FEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

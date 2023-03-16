@@ -1,0 +1,21 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - DNKPhilipsIoT (1.0.0):
+    - CocoaAsyncSocket
+
+DEPENDENCIES:
+  - DNKPhilipsIoT
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CocoaAsyncSocket
+  https://github.com/dnakeyun/dnake-specs.git:
+    - DNKPhilipsIoT
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  DNKPhilipsIoT: 8103534e6930a26c8c5d52c4ffcd4adce85a5108
+
+PODFILE CHECKSUM: 983cf17b5d46246e1f3a888cb70be9eacd2f7752
+
+COCOAPODS: 1.11.3
